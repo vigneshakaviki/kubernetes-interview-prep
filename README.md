@@ -26,6 +26,7 @@ highest-signal round) with the labs, then 04–06 and 08–10 to round out.
 ## Contents
 
 **82 questions**, plus hands-on labs and a debug cheatsheet.
+📑 **[Browse all 82 in one searchable list →](./questions/README.md)**
 
 | # | Topic | Q | Index |
 |---|-------|---|-------|
