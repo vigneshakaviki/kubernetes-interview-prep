@@ -10,7 +10,8 @@ written for this repo**.
 
 ## How to use
 
-- Each file under [`questions/`](./questions) is one topic area; entries are tagged by
+- Each folder under [`questions/`](./questions) is one topic; **every question is its own
+  page** with prev/next nav, linked from the topic index. Entries are tagged by
   **Difficulty** (Easy → Intermediate → Medium → Advanced → Hard).
 - Answers go deep on purpose — read for the *reasoning and trade-offs*, then **say them
   out loud** as if answering the interviewer. Reciting from memory beats re-reading.
@@ -26,18 +27,18 @@ highest-signal round) with the labs, then 04–06 and 08–10 to round out.
 
 **82 questions**, plus hands-on labs and a debug cheatsheet.
 
-| # | Topic | Q | File |
-|---|-------|---|------|
-| 1 | Core concepts & architecture | 16 | [01-core-concepts.md](./questions/01-core-concepts.md) |
-| 2 | Pods & workloads | 11 | [02-pods-workloads.md](./questions/02-pods-workloads.md) |
-| 3 | Networking (Service, Ingress, DNS, NetworkPolicy) | 10 | [03-networking.md](./questions/03-networking.md) |
-| 4 | Storage (PV, PVC, StatefulSet, CSI) | 6 | [04-storage.md](./questions/04-storage.md) |
-| 5 | Scaling & autoscaling (HPA, VPA, Cluster Autoscaler) | 5 | [05-scaling-autoscaling.md](./questions/05-scaling-autoscaling.md) |
-| 6 | RBAC & security | 5 | [06-rbac-security.md](./questions/06-rbac-security.md) |
-| 7 | **Production troubleshooting scenarios** | 11 | [07-troubleshooting-scenarios.md](./questions/07-troubleshooting-scenarios.md) |
-| 8 | Observability & SRE practice | 5 | [08-observability-sre.md](./questions/08-observability-sre.md) |
-| 9 | Linux & SRE fundamentals | 11 | [09-linux-sre-fundamentals.md](./questions/09-linux-sre-fundamentals.md) |
-| 10 | System design & coding | 2 | [10-system-design-coding.md](./questions/10-system-design-coding.md) |
+| # | Topic | Q | Index |
+|---|-------|---|-------|
+| 1 | Core concepts & architecture | 16 | [01-core-concepts/](./questions/01-core-concepts/) |
+| 2 | Pods & workloads | 11 | [02-pods-workloads/](./questions/02-pods-workloads/) |
+| 3 | Networking (Service, Ingress, DNS, NetworkPolicy) | 10 | [03-networking/](./questions/03-networking/) |
+| 4 | Storage (PV, PVC, StatefulSet, CSI) | 6 | [04-storage/](./questions/04-storage/) |
+| 5 | Scaling & autoscaling (HPA, VPA, Cluster Autoscaler) | 5 | [05-scaling-autoscaling/](./questions/05-scaling-autoscaling/) |
+| 6 | RBAC & security | 5 | [06-rbac-security/](./questions/06-rbac-security/) |
+| 7 | **Production troubleshooting scenarios** | 11 | [07-troubleshooting-scenarios/](./questions/07-troubleshooting-scenarios/) |
+| 8 | Observability & SRE practice | 5 | [08-observability-sre/](./questions/08-observability-sre/) |
+| 9 | Linux & SRE fundamentals | 11 | [09-linux-sre-fundamentals/](./questions/09-linux-sre-fundamentals/) |
+| 10 | System design & coding | 2 | [10-system-design-coding/](./questions/10-system-design-coding/) |
 
 ### Practice & reference
 
