@@ -1,6 +1,6 @@
 # A distributed database shows data inconsistency across replicas. Causes + investigation.
 
-[↑ Index](./README.md) · [← Prev](./10-a-stateful-pod-can-t-mount-its-volume.md)
+[↑ Index](./README.md) · [← Prev](./10-a-stateful-pod-can-t-mount-its-volume.md) · [Next →](./12-kubectl-is-slow-and-the-api-server-times-out.md)
 
 **Difficulty:** Hard · **Tags:** `distributed` `databases`
 
@@ -21,4 +21,4 @@ sensitive reads to async followers.
 
 ---
 
-[↑ Index](./README.md) · [← Prev](./10-a-stateful-pod-can-t-mount-its-volume.md)
+[↑ Index](./README.md) · [← Prev](./10-a-stateful-pod-can-t-mount-its-volume.md) · [Next →](./12-kubectl-is-slow-and-the-api-server-times-out.md)

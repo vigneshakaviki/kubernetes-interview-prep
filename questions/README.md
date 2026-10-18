@@ -2,7 +2,7 @@
 
 Every question in one place — use Ctrl-F. Each links to its own page.
 
-**82 questions** — Easy 14 · Intermediate 18 · Medium 28 · Advanced 14 · Hard 8
+**90 questions** — Easy 14 · Intermediate 18 · Medium 31 · Advanced 14 · Hard 13
 
 ## Core Concepts & Architecture  ·  [index](./01-core-concepts/)
 
@@ -102,6 +102,14 @@ Every question in one place — use Ctrl-F. Each links to its own page.
 | [A node goes `NotReady` and its Pods disappear. Respond as on-call.](./07-troubleshooting-scenarios/09-a-node-goes-and-its-pods-disappear-respond.md) | Hard |
 | [A stateful Pod can't mount its volume. Walk through it — carefully, data is at risk.](./07-troubleshooting-scenarios/10-a-stateful-pod-can-t-mount-its-volume.md) | Hard |
 | [A distributed database shows data inconsistency across replicas. Causes + investigation.](./07-troubleshooting-scenarios/11-a-distributed-database-shows-data-inconsistency-across-replicas.md) | Hard |
+| [kubectl is slow and the API server times out cluster-wide. Diagnose it.](./07-troubleshooting-scenarios/12-kubectl-is-slow-and-the-api-server-times-out.md) | Hard |
+| [After a deploy, p99 latency doubled but error rate is flat. Find it.](./07-troubleshooting-scenarios/13-after-a-deploy-p99-latency-doubled-but-no-errors.md) | Hard |
+| [DNS lookups fail intermittently across the whole cluster. Root cause?](./07-troubleshooting-scenarios/14-dns-lookups-fail-intermittently-cluster-wide.md) | Hard |
+| [A namespace is stuck in `Terminating` and won't delete. Why?](./07-troubleshooting-scenarios/15-a-namespace-is-stuck-terminating-and-wont-delete.md) | Medium |
+| [A node hits `DiskPressure` and starts evicting Pods. Respond.](./07-troubleshooting-scenarios/16-a-node-hits-diskpressure-and-evicts-pods.md) | Medium |
+| [Workloads (or kubelets) start failing a year in — certificates expired. Handle it.](./07-troubleshooting-scenarios/17-workloads-fail-tls-after-a-certificate-expired.md) | Hard |
+| [A node drain hangs during a cluster upgrade — Pods won't evict. Why?](./07-troubleshooting-scenarios/18-a-node-drain-wont-complete-during-an-upgrade.md) | Medium |
+| [Memory climbs all day, then Pods OOM every night. Leak or not?](./07-troubleshooting-scenarios/19-memory-climbs-all-day-then-pods-oom-every-night.md) | Hard |
 
 ## Observability & SRE Practice  ·  [index](./08-observability-sre/)
 

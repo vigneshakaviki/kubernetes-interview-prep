@@ -31,5 +31,13 @@ without thrashing. **Narrate the method**, not a command dump.
 | 9 | [A node goes `NotReady` and its Pods disappear. Respond as on-call.](./09-a-node-goes-and-its-pods-disappear-respond.md) | Hard |
 | 10 | [A stateful Pod can't mount its volume. Walk through it — carefully, data is at risk.](./10-a-stateful-pod-can-t-mount-its-volume.md) | Hard |
 | 11 | [A distributed database shows data inconsistency across replicas. Causes + investigation.](./11-a-distributed-database-shows-data-inconsistency-across-replicas.md) | Hard |
+| 12 | [kubectl is slow and the API server times out cluster-wide. Diagnose it.](./12-kubectl-is-slow-and-the-api-server-times-out.md) | Hard |
+| 13 | [After a deploy, p99 latency doubled but error rate is flat. Find it.](./13-after-a-deploy-p99-latency-doubled-but-no-errors.md) | Hard |
+| 14 | [DNS lookups fail intermittently across the whole cluster. Root cause?](./14-dns-lookups-fail-intermittently-cluster-wide.md) | Hard |
+| 15 | [A namespace is stuck in `Terminating` and won't delete. Why?](./15-a-namespace-is-stuck-terminating-and-wont-delete.md) | Medium |
+| 16 | [A node hits `DiskPressure` and starts evicting Pods. Respond.](./16-a-node-hits-diskpressure-and-evicts-pods.md) | Medium |
+| 17 | [Workloads (or kubelets) start failing a year in — certificates expired. Handle it.](./17-workloads-fail-tls-after-a-certificate-expired.md) | Hard |
+| 18 | [A node drain hangs during a cluster upgrade — Pods won't evict. Why?](./18-a-node-drain-wont-complete-during-an-upgrade.md) | Medium |
+| 19 | [Memory climbs all day, then Pods OOM every night. Leak or not?](./19-memory-climbs-all-day-then-pods-oom-every-night.md) | Hard |
 
 [← All topics](../../README.md)

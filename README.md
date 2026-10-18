@@ -25,8 +25,8 @@ highest-signal round) with the labs, then 04–06 and 08–10 to round out.
 
 ## Contents
 
-**82 questions**, plus hands-on labs and a debug cheatsheet.
-📑 **[Browse all 82 in one searchable list →](./questions/README.md)**
+**90 questions**, plus hands-on labs and a debug cheatsheet.
+📑 **[Browse all 90 in one searchable list →](./questions/README.md)**
 
 | # | Topic | Q | Index |
 |---|-------|---|-------|
@@ -36,7 +36,7 @@ highest-signal round) with the labs, then 04–06 and 08–10 to round out.
 | 4 | Storage (PV, PVC, StatefulSet, CSI) | 6 | [04-storage/](./questions/04-storage/) |
 | 5 | Scaling & autoscaling (HPA, VPA, Cluster Autoscaler) | 5 | [05-scaling-autoscaling/](./questions/05-scaling-autoscaling/) |
 | 6 | RBAC & security | 5 | [06-rbac-security/](./questions/06-rbac-security/) |
-| 7 | **Production troubleshooting scenarios** | 11 | [07-troubleshooting-scenarios/](./questions/07-troubleshooting-scenarios/) |
+| 7 | **Production troubleshooting scenarios** | 19 | [07-troubleshooting-scenarios/](./questions/07-troubleshooting-scenarios/) |
 | 8 | Observability & SRE practice | 5 | [08-observability-sre/](./questions/08-observability-sre/) |
 | 9 | Linux & SRE fundamentals | 11 | [09-linux-sre-fundamentals/](./questions/09-linux-sre-fundamentals/) |
 | 10 | System design & coding | 2 | [10-system-design-coding/](./questions/10-system-design-coding/) |
