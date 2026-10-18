@@ -2,7 +2,7 @@
 
 Every question in one place — use Ctrl-F. Each links to its own page.
 
-**90 questions** — Easy 14 · Intermediate 18 · Medium 31 · Advanced 14 · Hard 13
+**102 questions** — Easy 14 · Intermediate 18 · Medium 31 · Advanced 17 · Hard 22
 
 ## Core Concepts & Architecture  ·  [index](./01-core-concepts/)
 
@@ -24,6 +24,8 @@ Every question in one place — use Ctrl-F. Each links to its own page.
 | [Labels vs annotations — where's the line, and what breaks if you blur it?](./01-core-concepts/14-labels-vs-annotations-where-s-the-line-and.md) | Intermediate |
 | [Imperative vs declarative kubectl, and safely rolling back a bad Deployment.](./01-core-concepts/15-imperative-vs-declarative-kubectl-and-safely-rolling-back.md) | Intermediate |
 | [What is Helm, what does it buy you, and when would you use Kustomize instead?](./01-core-concepts/16-what-is-helm-what-does-it-buy-you.md) | Intermediate |
+| [API Priority & Fairness (APF) — what problem does it solve, and how?](./01-core-concepts/17-api-priority-and-fairness-what-it-protects.md) | Hard |
+| [Explain informers, watch/list, resourceVersion — and why a controller must tolerate stale caches.](./01-core-concepts/18-informers-watch-list-and-stale-caches.md) | Hard |
 
 ## Pods & Workloads  ·  [index](./02-pods-workloads/)
 
@@ -40,6 +42,7 @@ Every question in one place — use Ctrl-F. Each links to its own page.
 | [Job vs CronJob — the knobs that decide correctness under failure.](./02-pods-workloads/09-job-vs-cronjob-the-knobs-that-decide-correctness.md) | Intermediate |
 | [emptyDir vs hostPath vs PVC — when each, and the hostPath trap.](./02-pods-workloads/10-emptydir-vs-hostpath-vs-pvc-when-each-and.md) | Intermediate |
 | [What happens when a Pod is deleted — grace period, preStop, SIGTERM — and why a short grace period drops requests.](./02-pods-workloads/11-what-happens-when-a-pod-is-deleted-grace.md) | Intermediate |
+| [How do you canary a StatefulSet rollout — update one replica and hold?](./02-pods-workloads/12-controlled-canary-of-a-statefulset.md) | Advanced |
 
 ## Networking  ·  [index](./03-networking/)
 
@@ -55,6 +58,8 @@ Every question in one place — use Ctrl-F. Each links to its own page.
 | [What does a service mesh add over plain K8s networking, and what's the cost?](./03-networking/08-what-does-a-service-mesh-add-over-plain.md) | Advanced |
 | [How do Pods discover each other — DNS vs env vars — and why is one a trap?](./03-networking/09-how-do-pods-discover-each-other-dns-vs.md) | Intermediate |
 | [How does an Ingress handle TLS + path routing, and what's its relationship to the controller?](./03-networking/10-how-does-an-ingress-handle-tls-path-routing.md) | Intermediate |
+| [Trace an external packet to a Pod through a LoadBalancer Service — and contrast `externalTrafficPolicy` Cluster vs Local.](./03-networking/11-trace-external-packet-through-a-loadbalancer-service.md) | Hard |
+| [Two specific Pods have intermittent packet loss (others are fine). Debug methodically.](./03-networking/12-packet-loss-between-two-specific-pods-debug.md) | Hard |
 
 ## Storage  ·  [index](./04-storage/)
 
@@ -76,6 +81,7 @@ Every question in one place — use Ctrl-F. Each links to its own page.
 | [Autoscale on something other than CPU — custom/external metrics — and where KEDA fits.](./05-scaling-autoscaling/03-autoscale-on-something-other-than-cpu-custom-external.md) | Advanced |
 | [How does Cluster Autoscaler decide to add/remove a node — and why not just watch CPU?](./05-scaling-autoscaling/04-how-does-cluster-autoscaler-decide-to-add-remove.md) | Advanced |
 | [What is a PodDisruptionBudget, which disruptions does it govern, and when does it save you?](./05-scaling-autoscaling/05-what-is-a-poddisruptionbudget-which-disruptions-does-it.md) | Advanced |
+| [What's the HPA's actual scaling formula, and why does it flap?](./05-scaling-autoscaling/06-hpa-scaling-algorithm-math-and-flapping.md) | Advanced |
 
 ## RBAC & Security  ·  [index](./06-rbac-security/)
 
@@ -86,6 +92,7 @@ Every question in one place — use Ctrl-F. Each links to its own page.
 | [PodSecurityPolicy is gone. What replaced it, and how do you enforce "no root, no privileged"?](./06-rbac-security/03-podsecuritypolicy-is-gone-what-replaced-it-and-how.md) | Advanced |
 | [Validating vs mutating admission webhooks — order, and why it matters for sidecar injection.](./06-rbac-security/04-validating-vs-mutating-admission-webhooks-order-and-why.md) | Advanced |
 | [Secrets are only base64 in etcd. Give the full layered approach to securing them.](./06-rbac-security/05-secrets-are-only-base64-in-etcd-give-the.md) | Advanced |
+| [How do you enforce that only signed images from your registry can run?](./06-rbac-security/06-enforce-only-signed-images.md) | Advanced |
 
 ## Production Troubleshooting Scenarios  ·  [index](./07-troubleshooting-scenarios/)
 
@@ -120,6 +127,8 @@ Every question in one place — use Ctrl-F. Each links to its own page.
 | [Design a monitoring + alerting system. How do you prevent alert storms?](./08-observability-sre/03-design-a-monitoring-alerting-system-how-do-you.md) | Medium |
 | [Error budget nearly exhausted mid-quarter — what happens and what do you do?](./08-observability-sre/04-error-budget-nearly-exhausted-mid-quarter-what-happens.md) | Medium |
 | [Monitor cluster + workload health with Prometheus — how?](./08-observability-sre/05-monitor-cluster-workload-health-with-prometheus-how.md) | Medium |
+| [Prometheus histogram vs summary — and why can't you average p99 across instances?](./08-observability-sre/06-histograms-vs-summaries-and-aggregating-quantiles.md) | Hard |
+| [High-cardinality metrics are OOMing Prometheus. How do you detect and bound it?](./08-observability-sre/07-high-cardinality-metrics-detect-and-bound.md) | Hard |
 
 ## Linux & SRE Fundamentals  ·  [index](./09-linux-sre-fundamentals/)
 
@@ -136,6 +145,8 @@ Every question in one place — use Ctrl-F. Each links to its own page.
 | [Walk through a DNS lookup, app call to answer.](./09-linux-sre-fundamentals/09-walk-through-a-dns-lookup-app-call-to.md) | Medium |
 | [Show an `awk` one-liner and when awk is the right tool.](./09-linux-sre-fundamentals/10-show-an-one-liner-and-when-awk-is.md) | Easy |
 | [How is monitoring set up on the systems you run, end to end?](./09-linux-sre-fundamentals/11-how-is-monitoring-set-up-on-the-systems.md) | Medium |
+| [How do K8s memory limits map to cgroups, and why does the JVM/Go see the wrong memory?](./09-linux-sre-fundamentals/12-cgroups-memory-limits-and-the-jvm-go-runtime.md) | Hard |
+| [TIME_WAIT sockets pile up and connections start failing under load. Explain and fix.](./09-linux-sre-fundamentals/13-time-wait-pileup-and-ephemeral-port-exhaustion.md) | Hard |
 
 ## System Design & Coding  ·  [index](./10-system-design-coding/)
 
@@ -143,5 +154,6 @@ Every question in one place — use Ctrl-F. Each links to its own page.
 |----------|------------|
 | [Design a rate limiter under a target QPS. Then make it work across many servers.](./10-system-design-coding/01-design-a-rate-limiter-under-a-target-qps.md) | Medium |
 | [Count sessions per user from a `timestamp, user, action` log. Then scale past memory.](./10-system-design-coding/02-count-sessions-per-user-from-a-log-then.md) | Medium |
+| [Design a multi-region Kubernetes setup — traffic, data, failover.](./10-system-design-coding/03-design-multi-region-kubernetes.md) | Hard |
 
 [← Home](../README.md)

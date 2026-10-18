@@ -1,6 +1,6 @@
 # How does an Ingress handle TLS + path routing, and what's its relationship to the controller?
 
-[↑ Index](./README.md) · [← Prev](./09-how-do-pods-discover-each-other-dns-vs.md)
+[↑ Index](./README.md) · [← Prev](./09-how-do-pods-discover-each-other-dns-vs.md) · [Next →](./11-trace-external-packet-through-a-loadbalancer-service.md)
 
 **Difficulty:** Intermediate · **Tags:** `networking` `ingress`
 
@@ -18,4 +18,4 @@ why the **Gateway API** exists (typed, portable, role-oriented successor).
 
 ---
 
-[↑ Index](./README.md) · [← Prev](./09-how-do-pods-discover-each-other-dns-vs.md)
+[↑ Index](./README.md) · [← Prev](./09-how-do-pods-discover-each-other-dns-vs.md) · [Next →](./11-trace-external-packet-through-a-loadbalancer-service.md)

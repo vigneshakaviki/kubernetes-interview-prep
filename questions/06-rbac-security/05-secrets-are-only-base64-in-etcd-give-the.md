@@ -1,6 +1,6 @@
 # Secrets are only base64 in etcd. Give the full layered approach to securing them.
 
-[↑ Index](./README.md) · [← Prev](./04-validating-vs-mutating-admission-webhooks-order-and-why.md)
+[↑ Index](./README.md) · [← Prev](./04-validating-vs-mutating-admission-webhooks-order-and-why.md) · [Next →](./06-enforce-only-signed-images.md)
 
 **Difficulty:** Advanced · **Tags:** `security` `secrets`
 
@@ -19,4 +19,4 @@ fixed at Pod start** → need restart. Strongest posture: minimize long-lived se
 
 ---
 
-[↑ Index](./README.md) · [← Prev](./04-validating-vs-mutating-admission-webhooks-order-and-why.md)
+[↑ Index](./README.md) · [← Prev](./04-validating-vs-mutating-admission-webhooks-order-and-why.md) · [Next →](./06-enforce-only-signed-images.md)

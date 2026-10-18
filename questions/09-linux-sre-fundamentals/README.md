@@ -16,5 +16,7 @@ like someone who's been paged, not a man-page.
 | 9 | [Walk through a DNS lookup, app call to answer.](./09-walk-through-a-dns-lookup-app-call-to.md) | Medium |
 | 10 | [Show an `awk` one-liner and when awk is the right tool.](./10-show-an-one-liner-and-when-awk-is.md) | Easy |
 | 11 | [How is monitoring set up on the systems you run, end to end?](./11-how-is-monitoring-set-up-on-the-systems.md) | Medium |
+| 12 | [How do K8s memory limits map to cgroups, and why does the JVM/Go see the wrong memory?](./12-cgroups-memory-limits-and-the-jvm-go-runtime.md) | Hard |
+| 13 | [TIME_WAIT sockets pile up and connections start failing under load. Explain and fix.](./13-time-wait-pileup-and-ephemeral-port-exhaustion.md) | Hard |
 
 [← All topics](../../README.md)

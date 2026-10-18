@@ -1,6 +1,6 @@
 # What is Helm, what does it buy you, and when would you use Kustomize instead?
 
-[↑ Index](./README.md) · [← Prev](./15-imperative-vs-declarative-kubectl-and-safely-rolling-back.md)
+[↑ Index](./README.md) · [← Prev](./15-imperative-vs-declarative-kubectl-and-safely-rolling-back.md) · [Next →](./17-api-priority-and-fairness-what-it-protects.md)
 
 **Difficulty:** Intermediate · **Tags:** `packaging`
 
@@ -17,4 +17,4 @@ who owns the manifests + whether you need packaged, versioned distribution.
 
 ---
 
-[↑ Index](./README.md) · [← Prev](./15-imperative-vs-declarative-kubectl-and-safely-rolling-back.md)
+[↑ Index](./README.md) · [← Prev](./15-imperative-vs-declarative-kubectl-and-safely-rolling-back.md) · [Next →](./17-api-priority-and-fairness-what-it-protects.md)

@@ -1,6 +1,6 @@
 # How is monitoring set up on the systems you run, end to end?
 
-[↑ Index](./README.md) · [← Prev](./10-show-an-one-liner-and-when-awk-is.md)
+[↑ Index](./README.md) · [← Prev](./10-show-an-one-liner-and-when-awk-is.md) · [Next →](./12-cgroups-memory-limits-and-the-jvm-go-runtime.md)
 
 **Difficulty:** Medium · **Tags:** `sre` `monitoring`
 
@@ -17,4 +17,4 @@ routing, pruned noisy alerts.
 
 ---
 
-[↑ Index](./README.md) · [← Prev](./10-show-an-one-liner-and-when-awk-is.md)
+[↑ Index](./README.md) · [← Prev](./10-show-an-one-liner-and-when-awk-is.md) · [Next →](./12-cgroups-memory-limits-and-the-jvm-go-runtime.md)

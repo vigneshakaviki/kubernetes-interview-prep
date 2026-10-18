@@ -13,5 +13,6 @@
 | 9 | [Job vs CronJob — the knobs that decide correctness under failure.](./09-job-vs-cronjob-the-knobs-that-decide-correctness.md) | Intermediate |
 | 10 | [emptyDir vs hostPath vs PVC — when each, and the hostPath trap.](./10-emptydir-vs-hostpath-vs-pvc-when-each-and.md) | Intermediate |
 | 11 | [What happens when a Pod is deleted — grace period, preStop, SIGTERM — and why a short grace period drops requests.](./11-what-happens-when-a-pod-is-deleted-grace.md) | Intermediate |
+| 12 | [How do you canary a StatefulSet rollout — update one replica and hold?](./12-controlled-canary-of-a-statefulset.md) | Advanced |
 
 [← All topics](../../README.md)

@@ -1,6 +1,6 @@
 # What is a PodDisruptionBudget, which disruptions does it govern, and when does it save you?
 
-[↑ Index](./README.md) · [← Prev](./04-how-does-cluster-autoscaler-decide-to-add-remove.md)
+[↑ Index](./README.md) · [← Prev](./04-how-does-cluster-autoscaler-decide-to-add-remove.md) · [Next →](./06-hpa-scaling-algorithm-math-and-flapping.md)
 
 **Difficulty:** Advanced · **Tags:** `availability`
 
@@ -26,4 +26,4 @@ Only helps with enough replicas (1 replica + `minAvailable: 1` = undrainable).
 
 ---
 
-[↑ Index](./README.md) · [← Prev](./04-how-does-cluster-autoscaler-decide-to-add-remove.md)
+[↑ Index](./README.md) · [← Prev](./04-how-does-cluster-autoscaler-decide-to-add-remove.md) · [Next →](./06-hpa-scaling-algorithm-math-and-flapping.md)

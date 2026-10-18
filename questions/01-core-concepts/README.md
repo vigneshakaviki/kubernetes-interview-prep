@@ -18,5 +18,7 @@
 | 14 | [Labels vs annotations — where's the line, and what breaks if you blur it?](./14-labels-vs-annotations-where-s-the-line-and.md) | Intermediate |
 | 15 | [Imperative vs declarative kubectl, and safely rolling back a bad Deployment.](./15-imperative-vs-declarative-kubectl-and-safely-rolling-back.md) | Intermediate |
 | 16 | [What is Helm, what does it buy you, and when would you use Kustomize instead?](./16-what-is-helm-what-does-it-buy-you.md) | Intermediate |
+| 17 | [API Priority & Fairness (APF) — what problem does it solve, and how?](./17-api-priority-and-fairness-what-it-protects.md) | Hard |
+| 18 | [Explain informers, watch/list, resourceVersion — and why a controller must tolerate stale caches.](./18-informers-watch-list-and-stale-caches.md) | Hard |
 
 [← All topics](../../README.md)

@@ -1,6 +1,6 @@
 # Monitor cluster + workload health with Prometheus — how?
 
-[↑ Index](./README.md) · [← Prev](./04-error-budget-nearly-exhausted-mid-quarter-what-happens.md)
+[↑ Index](./README.md) · [← Prev](./04-error-budget-nearly-exhausted-mid-quarter-what-happens.md) · [Next →](./06-histograms-vs-summaries-and-aggregating-quantiles.md)
 
 **Difficulty:** Medium · **Tags:** `monitoring` `prometheus`
 
@@ -17,4 +17,4 @@ Prometheus itself.
 
 ---
 
-[↑ Index](./README.md) · [← Prev](./04-error-budget-nearly-exhausted-mid-quarter-what-happens.md)
+[↑ Index](./README.md) · [← Prev](./04-error-budget-nearly-exhausted-mid-quarter-what-happens.md) · [Next →](./06-histograms-vs-summaries-and-aggregating-quantiles.md)

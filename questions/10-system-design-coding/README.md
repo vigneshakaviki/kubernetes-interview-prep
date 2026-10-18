@@ -7,5 +7,6 @@ algorithms. They want production reasoning — failure modes, idempotency, consi
 |---|----------|------------|
 | 1 | [Design a rate limiter under a target QPS. Then make it work across many servers.](./01-design-a-rate-limiter-under-a-target-qps.md) | Medium |
 | 2 | [Count sessions per user from a `timestamp, user, action` log. Then scale past memory.](./02-count-sessions-per-user-from-a-log-then.md) | Medium |
+| 3 | [Design a multi-region Kubernetes setup — traffic, data, failover.](./03-design-multi-region-kubernetes.md) | Hard |
 
 [← All topics](../../README.md)

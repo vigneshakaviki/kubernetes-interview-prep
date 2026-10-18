@@ -1,6 +1,6 @@
 # Count sessions per user from a `timestamp, user, action` log. Then scale past memory.
 
-[↑ Index](./README.md) · [← Prev](./01-design-a-rate-limiter-under-a-target-qps.md)
+[↑ Index](./README.md) · [← Prev](./01-design-a-rate-limiter-under-a-target-qps.md) · [Next →](./03-design-multi-region-kubernetes.md)
 
 **Difficulty:** Medium · **Tags:** `coding` `logs`
 
@@ -22,4 +22,4 @@ one. Handle malformed lines + clock skew — real logs have both.
 
 ---
 
-[↑ Index](./README.md) · [← Prev](./01-design-a-rate-limiter-under-a-target-qps.md)
+[↑ Index](./README.md) · [← Prev](./01-design-a-rate-limiter-under-a-target-qps.md) · [Next →](./03-design-multi-region-kubernetes.md)

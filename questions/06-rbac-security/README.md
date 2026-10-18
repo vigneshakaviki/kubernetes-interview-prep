@@ -7,5 +7,6 @@
 | 3 | [PodSecurityPolicy is gone. What replaced it, and how do you enforce "no root, no privileged"?](./03-podsecuritypolicy-is-gone-what-replaced-it-and-how.md) | Advanced |
 | 4 | [Validating vs mutating admission webhooks — order, and why it matters for sidecar injection.](./04-validating-vs-mutating-admission-webhooks-order-and-why.md) | Advanced |
 | 5 | [Secrets are only base64 in etcd. Give the full layered approach to securing them.](./05-secrets-are-only-base64-in-etcd-give-the.md) | Advanced |
+| 6 | [How do you enforce that only signed images from your registry can run?](./06-enforce-only-signed-images.md) | Advanced |
 
 [← All topics](../../README.md)

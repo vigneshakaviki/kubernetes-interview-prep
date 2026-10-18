@@ -1,6 +1,6 @@
 # What happens when a Pod is deleted — grace period, preStop, SIGTERM — and why a short grace period drops requests.
 
-[↑ Index](./README.md) · [← Prev](./10-emptydir-vs-hostpath-vs-pvc-when-each-and.md)
+[↑ Index](./README.md) · [← Prev](./10-emptydir-vs-hostpath-vs-pvc-when-each-and.md) · [Next →](./12-controlled-canary-of-a-statefulset.md)
 
 **Difficulty:** Intermediate · **Tags:** `lifecycle`
 
@@ -23,4 +23,4 @@ shutdown is a distributed-systems **race**, not just "handle the signal."
 
 ---
 
-[↑ Index](./README.md) · [← Prev](./10-emptydir-vs-hostpath-vs-pvc-when-each-and.md)
+[↑ Index](./README.md) · [← Prev](./10-emptydir-vs-hostpath-vs-pvc-when-each-and.md) · [Next →](./12-controlled-canary-of-a-statefulset.md)

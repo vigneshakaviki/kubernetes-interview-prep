@@ -25,21 +25,21 @@ highest-signal round) with the labs, then 04–06 and 08–10 to round out.
 
 ## Contents
 
-**90 questions**, plus hands-on labs and a debug cheatsheet.
-📑 **[Browse all 90 in one searchable list →](./questions/README.md)**
+**102 questions**, plus hands-on labs and a debug cheatsheet.
+📑 **[Browse all 102 in one searchable list →](./questions/README.md)**
 
 | # | Topic | Q | Index |
 |---|-------|---|-------|
-| 1 | Core concepts & architecture | 16 | [01-core-concepts/](./questions/01-core-concepts/) |
-| 2 | Pods & workloads | 11 | [02-pods-workloads/](./questions/02-pods-workloads/) |
-| 3 | Networking (Service, Ingress, DNS, NetworkPolicy) | 10 | [03-networking/](./questions/03-networking/) |
+| 1 | Core concepts & architecture | 18 | [01-core-concepts/](./questions/01-core-concepts/) |
+| 2 | Pods & workloads | 12 | [02-pods-workloads/](./questions/02-pods-workloads/) |
+| 3 | Networking (Service, Ingress, DNS, NetworkPolicy) | 12 | [03-networking/](./questions/03-networking/) |
 | 4 | Storage (PV, PVC, StatefulSet, CSI) | 6 | [04-storage/](./questions/04-storage/) |
-| 5 | Scaling & autoscaling (HPA, VPA, Cluster Autoscaler) | 5 | [05-scaling-autoscaling/](./questions/05-scaling-autoscaling/) |
-| 6 | RBAC & security | 5 | [06-rbac-security/](./questions/06-rbac-security/) |
+| 5 | Scaling & autoscaling (HPA, VPA, Cluster Autoscaler) | 6 | [05-scaling-autoscaling/](./questions/05-scaling-autoscaling/) |
+| 6 | RBAC & security | 6 | [06-rbac-security/](./questions/06-rbac-security/) |
 | 7 | **Production troubleshooting scenarios** | 19 | [07-troubleshooting-scenarios/](./questions/07-troubleshooting-scenarios/) |
-| 8 | Observability & SRE practice | 5 | [08-observability-sre/](./questions/08-observability-sre/) |
-| 9 | Linux & SRE fundamentals | 11 | [09-linux-sre-fundamentals/](./questions/09-linux-sre-fundamentals/) |
-| 10 | System design & coding | 2 | [10-system-design-coding/](./questions/10-system-design-coding/) |
+| 8 | Observability & SRE practice | 7 | [08-observability-sre/](./questions/08-observability-sre/) |
+| 9 | Linux & SRE fundamentals | 13 | [09-linux-sre-fundamentals/](./questions/09-linux-sre-fundamentals/) |
+| 10 | System design & coding | 3 | [10-system-design-coding/](./questions/10-system-design-coding/) |
 
 ### Practice & reference
 

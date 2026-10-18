@@ -12,5 +12,7 @@
 | 8 | [What does a service mesh add over plain K8s networking, and what's the cost?](./08-what-does-a-service-mesh-add-over-plain.md) | Advanced |
 | 9 | [How do Pods discover each other — DNS vs env vars — and why is one a trap?](./09-how-do-pods-discover-each-other-dns-vs.md) | Intermediate |
 | 10 | [How does an Ingress handle TLS + path routing, and what's its relationship to the controller?](./10-how-does-an-ingress-handle-tls-path-routing.md) | Intermediate |
+| 11 | [Trace an external packet to a Pod through a LoadBalancer Service — and contrast `externalTrafficPolicy` Cluster vs Local.](./11-trace-external-packet-through-a-loadbalancer-service.md) | Hard |
+| 12 | [Two specific Pods have intermittent packet loss (others are fine). Debug methodically.](./12-packet-loss-between-two-specific-pods-debug.md) | Hard |
 
 [← All topics](../../README.md)
